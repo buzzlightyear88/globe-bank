@@ -1,3 +1,3 @@
 # globe-bank
-PHP project - CMS 
-procedural 
+PHP project -  CMS
+procedural
