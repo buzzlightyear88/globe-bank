@@ -7,7 +7,7 @@ if(!isset($_GET['id'])) {
   redirect_to(url_for('/staff/admins/index.php'));
 }
 $id = $_GET['id'];
-
+//test
 if(is_post_request()) {
   $admin = [];
   $admin['id'] = $id;
