@@ -2,7 +2,7 @@
 
 <?php
   require_login();
-  
+
   $page_set = find_all_pages();
 
 ?>
@@ -17,7 +17,7 @@
     <div class="actions">
       <a class="action" href="<?php echo url_for('/staff/pages/new.php'); ?>">Create New Page</a>
     </div>
-
+    
   	<table class="list">
   	  <tr>
         <th>ID</th>
