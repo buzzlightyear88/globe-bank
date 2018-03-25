@@ -17,7 +17,7 @@
     <div class="actions">
       <a class="action" href="<?php echo url_for('/staff/pages/new.php'); ?>">Create New Page</a>
     </div>
-    
+    <? //test ?>
   	<table class="list">
   	  <tr>
         <th>ID</th>
