@@ -13,7 +13,7 @@
 <div id="content">
   <div class="pages listing">
     <h1>Pages</h1>
-<? //TODO blyat ?>
+<? //TODO blyat cyka ?>
     <div class="actions">
       <a class="action" href="<?php echo url_for('/staff/pages/new.php'); ?>">Create New Page</a>
     </div>
