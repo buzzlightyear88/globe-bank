@@ -6,7 +6,7 @@ require_login();
 if(!isset($_GET['id'])) {
   redirect_to(url_for('/staff/admins/index.php'));
 }
-$id = $_GET['id'];
+$id = $_GET['id'] ?? 1;
 
 if(is_post_request()) {
   $admin = [];
